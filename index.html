@@ -1,1 +1,29 @@
- style.css script.js
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <center><h1 style="color: rgb(243, 19, 19);font-size: 60px;">STOP CLOCK </h1></center>
+
+        <center><h2 id="timerDisplay" style="font-size: 60px; color: white;">0:00</h2></center>
+
+
+       <center> <input type="number" id="minute" placeholder="minutes">
+        <input type="number" id="seconds" placeholder="seconds"> <br><br>
+
+        <button id onclick="startStopWatch()">start</button>
+        <button id onclick="stopStopWatch()">stop</button></center>
+
+        <audio id="audio" src="/Users/Rose/Downloads/Alarm-Fast-High-Pitch-A2-www.fesliyanstudios.com.mp3"></audio>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+</html>
+
